@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+/* Header section */
+
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: black; 
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+#logo img {
+  height: 50px;
+  width: auto;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: seashell;
+}
+
+/* Main Section */
+
+main {
+    position: relative;
+    top: 70px;
+    display: block;
+}
+
+#mission_section {
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("images/img-mission-background.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission_copy {
+    width: 100%;
+    background-color: black;
+}
+
+/* Tea of the Month Section */
+
+#tea_month_section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#tea_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea_box {
+    width: 300px;
+    margin: 10px;
+}
+
+.tea_box img {
+    width: 100%;
+    height: auto;
+}
+
+/* Locations Section */
+
+#locations_section {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/img-locations-background.webp");
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#location_boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.location_box {
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: black;
+}
+
+/* contact sections */
+
+#contact {
+    margin: 10 auto;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+}
